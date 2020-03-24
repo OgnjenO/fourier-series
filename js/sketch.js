@@ -1,3 +1,6 @@
+/* CREDITS */
+/* Base calculation code : https://thecodingtrain.com/CodingChallenges/125-fourier-series.html */
+
 /* Global variables */
 const maxTerms = 50;
 const maxSpeed = 10;
