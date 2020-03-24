@@ -10,3 +10,11 @@ canvas {
 .color-white {
   color: #FFFFFF;
 }  
+
+.width-350 {
+  width: 350px;
+}
+
+a {
+  color: #FFFF00;
+}

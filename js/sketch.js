@@ -40,6 +40,9 @@ let precalcCheckbox
 let submitButton;
 let deleteButton;
 
+/* GitHub */
+let gitHubLink
+
 let displayedList;
 
 function setup() {
@@ -86,7 +89,7 @@ function setup() {
 
 	/* Pre-calculation */
 	precalcInfo = createElement('h2', 'How many terms to precalculate')
-	precalcInfo.class('color-white');
+	precalcInfo.class('color-white width-350');
 	precalcInfo.position(800, 40);
 	precalcValue = createElement('h2');
 	precalcValue.class('color-white');
@@ -111,6 +114,10 @@ function setup() {
 	displayedList = createElement('ul');
 	displayedList.class('color-white');
 	displayedList.position(0, 200);
+
+	/* GitHub */
+	gitHubLink = createA('https://github.com/OgnjenO/fourier-series', 'GitHub repository : https://github.com/OgnjenO/fourier-series', "_blank");
+	gitHubLink.position(10, 10);
 }
 
 function precalcCheckboxEvent() {
