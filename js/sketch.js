@@ -34,21 +34,21 @@ let precalc;
 let precalcValue;
 
 /* Pre-calculation checkbox */
-let precalcCheckbox
+let precalcCheckbox;
 
 /* Buttons */
 let submitButton;
 let deleteButton;
 
 /* GitHub */
-let gitHubLink
+let gitHubLink;
 
 let displayedList;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	/* Number of terms */
-	termsNumInfo = createElement('h2', 'Number of terms')
+	termsNumInfo = createElement('h2', 'Number of terms');
 	termsNumInfo.class('color-white');
 	termsNumInfo.position(100, 40);
 	termsNumValue = createElement('h2');
@@ -58,7 +58,7 @@ function setup() {
 	termsNum.position(100, 100);
 
 	/* Speed */
-	speedInfo = createElement('h2', 'Speed')
+	speedInfo = createElement('h2', 'Speed');
 	speedInfo.class('color-white');
 	speedInfo.position(100, 110);
 	speedValue = createElement('h2');
@@ -88,7 +88,7 @@ function setup() {
 	targetColor.position(530, 127);
 
 	/* Pre-calculation */
-	precalcInfo = createElement('h2', 'How many terms to precalculate')
+	precalcInfo = createElement('h2', 'How many terms to precalculate');
 	precalcInfo.class('color-white width-350');
 	precalcInfo.position(800, 40);
 	precalcValue = createElement('h2');
